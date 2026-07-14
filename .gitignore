@@ -1,0 +1,42 @@
+# .NET build outputs
+**/bin/
+**/obj/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+
+# Test and coverage results
+**/TestResults/
+**/coverage/
+*.coverage
+*.coveragexml
+
+# Local logs
+*.log
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local ASP.NET configuration containing secrets
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
